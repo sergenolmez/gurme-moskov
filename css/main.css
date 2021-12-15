@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+html {
+    font-family: "Montserrat","sans-serif";
+}
+/* NavBar */
+#navbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75;
+    height: 70px;
+}
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a {
+    padding: 0.75rem;
+}
+#navbar ul li a:hover {
+    background: #336ea2;
+    border-radius: 5px;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+
+#home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+#home .name h2 {
+    margin-bottom: 0.75rem;
+}
+
+#home .name p {
+    opacity: 0.6;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+/* Diets */
+
+#diets {
+    color:#fff;
+    padding: 1rem;
+}
+
+#diets .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#diets .items .item {
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+    
+}
+
+#diets .items .item:hover {
+    font-weight: bolder;
+}
+
+/* howeat */
+
+#foods {
+    color: #333;
+    padding: 1rem;
+}
+
+.foods{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.foods .food {
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.foods .food .food-image {
+    margin-right: 0.5rem;
+    position: relative;
+}
+.foods .food .food-image img{
+    border-radius: 10px;
+}
+
+.foods .food .food-image span {
+    background: red;
+    padding: 0.25rem;
+    color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+}
+
+.foods .food .food-info .title {
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+.foods .food .food-info .description {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin-bottom:  0.25rem;
+    opacity: 0.6;
+}
+.foods .food .food-info .instructor {
+    font-size: 0.8rem;
+    margin-bottom:  0.25rem;
+    opacity: 0.6;
+}
+.foods .food .food-info .rating {
+    font-size: 0.8rem;
+    margin-bottom:  0.25rem;
+    opacity: 0.6;
+}
+#contact {
+    color: #fff;
+    padding: 1rem;
+}
+#contact .contact-form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
